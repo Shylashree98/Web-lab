@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+.newspaper {
+  -webkit-column-count: 3; 
+  
+  column-count: 3;
+
+  -webkit-column-gap: 40px; 
+  column-gap: 40px;
+
+  -webkit-column-rule: 4px double #ff00ff; 
+  
+  column-rule: 4px double #ff00ff;
+  border:1px solid black;
+  position:relative;
+  
+}
+body{
+	background:#eee;;
+}
+.wrapper{
+	background:#fff;
+	max-width:960px;
+	margin :0 auto;
+	padding:20px;
+}
+.wrapper:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+#banner{max-height:300px;
+overflow:hidden;
+margin:1%;
+position:relative;
+}
+#banner h2{
+position:absolute;
+top:30px;
+margin:0;
+width:100%;
+text-align:center;
+color:black;
+}
+section,aside{
+	float:left;
+	width:46%;
+	padding:1%;
+	margin:1%;
+	background:#ccc;
+}
+.columns:after{
+	display:block;
+	content:"";
+	clear:both;
+}
+.service h2,.service p{
+	color:#999;
+	margin:10px 0;
+	text-align:center;
+}
+.services{
+max-height:150px;
+overflow:hidden;
+}
+nav{
+background:#333;
+padding:5px;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+z-index:0;
+}
+nav ul:after{
+content:"";
+display:block;
+clear:both;
+}
+nav li{
+list-style-type:none;
+margin:0 10px;
+color:#fff;
+float:right;
+}
+.service{
+	float:left;
+	background:#eee;
+	width:29%;
+	margin:1%;
+	padding:1%;
+	position:relative;
+	height:100px;
+}
+.service:nth-child(1){
+top:5px;
+}
+.service:nth-child(2){
+top:15px;
+}
+.service:nth-child(3){
+top:25px;
+}
+
+.service:after{
+	content"";
+}
+.content{
+	padding:10px;
+	background:#ccc;
+	clear:left;
+	margin-top:50px;
+}
+section,aside{
+	float:left;
+	width:46%;
+	padding:1%;
+	margin:1%;
+	background:#ccc;
+}
+.columns:after{
+	display:block;
+	content:"";
+	clear:both;
+}
+</style>
+</head>
+<body>
+<nav>
+<ul>
+<li>link</li>
+<li>link</li>
+<li>link</li>
+<li>link</li>
+</ul>
+</nav>
+<div class="wrapper">
+
+<div id="banner">
+<img src="download.jpg" width="100%">
+<h2> blue sky thinking</h2>
+</div>
+
+<div class="blue"></div>
+<div class="red"></div>
+<div class="green"></div>
+<div class="services">
+<div class="service">
+<h2>service 1</h2>
+<p> this is service 1</p>
+</div>
+<div class="service">
+<h2>service 1</h2>
+<p> this is service 2</p>
+</div>
+<div class="service">
+<h2>service 1</h2>
+<p> this is service 3</p>
+</div>
+</div>
+<h1>The column-rule Property</h1>
+<p>The column-rule property sets the width, style, and color of the rule between the columns of the element:</p>
+
+<div class="newspaper">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+</div>
+
+<p><strong>Note:</strong> The column-rule property is not supported in Internet Explorer 9 and earlier versions.</p>
+<div class="columns">
+<div style="clear:both;"></div>
+<section>
+<h2>this is col 1</h2>
+<p>
+orizzle crunk dolizzle amizzle, uhuh ... yih! adipiscing elit. Nullam shut the shizzle up fo, break yo neck, yall volutpizzle, fizzle dawg, its fo rizzle go to hizzle, shizzle my nizzle crocodizzle. Pellentesque i'm in the shizzle tortizzle. Sed eros. Its fo rizzle izzle dolizzle dapibus turpis tempus tempor. Maurizzle gangster cool turpis. Vestibulum izzle tortizzle. Pellentesque things rhoncizzle nisi. In owned the bizzle platea dictumst. Pot dapibizzle. Curabitizzle fo shizzle mah nizzle, check out this owned, mattizzle sizzle, stuff ma nizzle, dang. Yo suscipizzle. Integer check out this for sure sizzle shit.
+Rizzle nizzle mauris egizzle nisi consectetuer pretizzle. Shut the shizzle up for sure amet lacizzle. Yippiyo eu nisl fo shizzle mah nizzle fo rizzle, mah home g-dizzle lacizzle auctizzle tellivizzle. Gangster suscipizzle viverra ipsum. Curabitur in . Vestibulum go to hizzle enizzle, auctizzle dawg, congue , dignissizzle crazy, libero. Go to hizzle vitae pede uhuh ... yih! pot posuere da bomb. Quisque fo tortizzle, stuff pulvinizzle, get down get down a, mollis fizzle amizzle, erizzle. Fo shizzle izzle dui. Dang the bizzle bow wow wow, elementum consectetuer, sollicitudin in, dang imperdizzle, fizzle. Quisque a ipsum sizzle shiznit pot vehicula. Daahng dawg things sagittis ipsum. Boom shackalack habitant morbi sizzle fo shizzle check out this ghetto izzle check out this sure ac owned i saw beyonces tizzles and my pizzle went crizzle. In sizzle. Curabitizzle bow wow wow. Ut fo felis, semper quis, suscipit izzle, crunk get down get down, get down get down. Mah nizzle break yo neck, yall gravida da bomb.
+Rizzle nizzle mauris egizzle nisi consectetuer pretizzle. Shut the shizzle up for sure amet lacizzle. Yippiyo eu nisl fo shizzle mah nizzle fo rizzle, mah home g-dizzle lacizzle auctizzle tellivizzle. Gangster suscipizzle viverra ipsum. Curabitur in . Vestibulum go to hizzle enizzle, auctizzle dawg, congue , dignissizzle crazy, libero. Go to hizzle vitae pede uhuh ... yih! pot posuere da bomb. Quisque fo tortizzle, stuff pulvinizzle, get down get down a, mollis fizzle amizzle, erizzle. Fo shizzle izzle dui. Dang the bizzle bow wow wow, elementum consectetuer, sollicitudin in, dang imperdizzle, fizzle. Quisque a ipsum sizzle shiznit pot vehicula. Daahng dawg things sagittis ipsum. Boom shackalack habitant morbi sizzle fo shizzle check out this ghetto izzle chre  
+
+
+</p>
+
+</section>
+<aside>
+<h2>this is col 2</h2>
+<p>orizzle crunk dolizzle amizzle, uhuh ... yih! adipiscing elit. Nullam shut the shizzle up fo, break yo neck, yall volutpizzle, fizzle dawg, its fo rizzle go to hizzle, shizzle my nizzle crocodizzle. Pellentesque i'm in the shizzle tortizzle. Sed eros. Its fo rizzle izzle dolizzle dapibus turpis tempus tempor. Maurizzle gangster cool turpis. Vestibulum izzle tortizzle. Pellentesque things rhoncizzle nisi. In owned the bizzle platea dictumst. Pot dapibizzle. Curabitizzle fo shizzle mah nizzle, check out this owned, mattizzle sizzle, stuff ma nizzle, dang. Yo suscipizzle. Integer check out this for sure sizzle shit.
+
+</p>
+<img src="download.jpg" width="100%">
+</aside>
+</div>
+<nav>
+<ul>
+<li>link</li>
+<li>link</li>
+<li>link</li>
+<li>link</li>
+</ul>
+</nav>
+
+</body>
+</html>
